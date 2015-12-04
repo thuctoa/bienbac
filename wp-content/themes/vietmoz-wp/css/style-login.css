@@ -1,0 +1,56 @@
+html {
+	background: #2bb673; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMyYmI2NzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA3ZDQxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-radial-gradient(center, ellipse cover,  #2bb673 0%, #007d41 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#2bb673), color-stop(100%,#007d41)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #2bb673 0%,#007d41 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #2bb673 0%,#007d41 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #2bb673 0%,#007d41 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #2bb673 0%,#007d41 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2bb673', endColorstr='#007d41',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+body {
+	background: transparent;
+}
+#login {
+	padding: 10% 8%;
+	background: url(../img/o-bg.png) no-repeat center center;
+	background-size: 100%;
+	display: table;
+	vertical-align: middle;
+	width: 500px;
+	height: 100%;
+}
+
+.login h1 a {
+	background-image: url(../img/logo-login-sm.png);
+	width: 300px;
+	background-size: 100%;
+}
+.login form {
+	background: transparent;
+	box-shadow: none;
+}
+.login label {
+	color: #fff;
+	white-space: nowrap;
+}
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+	background: transparent;
+	border-radius: 3px;
+	border: 1px solid #fff;
+	color: #fff;
+}
+input[type=checkbox]:checked:before {
+	color: #fff;
+}
+#login form p.submit input[type="submit"] {
+	background: transparent;
+	box-shadow: none;
+	border: 1px solid #fff;
+	clear: both;
+}
+.login #backtoblog a, .login #nav a {
+	color: #fff;
+}
