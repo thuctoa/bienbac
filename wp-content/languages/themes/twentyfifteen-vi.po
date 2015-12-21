@@ -2,21 +2,30 @@
 # This file is distributed under the same license as the Twenty Fifteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-03-26 16:50:57+0000\n"
+"PO-Revision-Date: 2015-11-27 09:20:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/1.0-alpha-1000\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
 "Project-Id-Version: Twenty Fifteen\n"
 
-#: author-bio.php:34
-msgid "View all posts by %s"
-msgstr "Xem tất cả các bài viết bởi %s"
+#. translators: %s: post title
+#: inc/template-tags.php:123
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Để lại một lời bình <span class=\"screen-reader-text\"> ở %s</span>"
 
-#: 404.php:21
-msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr "Không thể tìm thấy dữ liệu cần thiết tại đây. Hãy thử tìm kiếm?"
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.org/themes/twentyfifteen/"
+msgstr "https://wordpress.org/themes/twentyfifteen/"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Không tìm thấy trang này."
+
+#: archive.php:49 index.php:46 search.php:38
+msgid "Previous page"
+msgstr "Trang trước"
 
 #: archive.php:51 content-link.php:40 content-page.php:29 content.php:42
 #: image.php:63 index.php:48 search.php:40
@@ -31,98 +40,20 @@ msgstr "Trang tiếp"
 msgid "Published by"
 msgstr "Được đăng bởi"
 
-#: archive.php:49 index.php:46 search.php:38
-msgid "Previous page"
-msgstr "Trang trước"
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "Xem tất cả các bài viết bởi %s"
 
-#: 404.php:17
-msgid "Oops! That page can&rsquo;t be found."
-msgstr "Oops! Không tìm thấy trang này."
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "(Một) %1$s bình luận về &ldquo;%2$s&rdquo;"
 
-#: content-none.php:22
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Bạn đã sẵn sàng đăng bài viết đầu tiên chưa? <a href=\"%1$s\">Hãy bắt đầu tại đây</a>."
-
-#: content-none.php:15
-msgid "Nothing Found"
-msgstr "Không tìm thấy"
-
-#: header.php:27
-msgid "Skip to content"
-msgstr "Vào ngay phần nội dung"
-
-#: functions.php:85
-msgid "Primary Menu"
-msgstr "Trình đơn chính"
-
-#: footer.php:25
-msgid "Proudly powered by %s"
-msgstr "Được xây dựng bởi %s"
-
-#: content-link.php:56 content-page.php:35 content-search.php:28
-#: content-search.php:33 content.php:57 image.php:71
-msgid "Edit"
-msgstr "Chỉnh sửa"
-
-#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
-msgid "Pages:"
-msgstr "Trang:"
-
-#: comments.php:53
-msgid "Comments are closed."
-msgstr "Bình luận đã được đóng."
-
-#: functions.php:232
-msgid "collapse child menu"
-msgstr "đóng menu con"
-
-#: functions.php:231
-msgid "expand child menu"
-msgstr "mở rộng menu con"
-
-#. translators: If there are characters in your language that are not supported
-#. by Noto Sans, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:158
-msgctxt "Noto Sans font: on or off"
-msgid "on"
-msgstr "bật"
-
-#. translators: If there are characters in your language that are not supported
-#. by Noto Serif, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:163
-msgctxt "Noto Serif font: on or off"
-msgid "on"
-msgstr "bật"
-
-#. translators: If there are characters in your language that are not supported
-#. by Inconsolata, translate this to 'off'. Do not translate into your own
-#. language.
-#: functions.php:168
-msgctxt "Inconsolata font: on or off"
-msgid "on"
-msgstr "bật"
-
-#: functions.php:86
-msgid "Social Links Menu"
-msgstr "Menu các đường dẫn mạng xã hội"
-
-#: functions.php:133
-msgid "Widget Area"
-msgstr "Khu vực Widget"
-
-#. translators: To add an additional character subset specific to your
-#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
-#. 'vietnamese'. Do not translate into your own language.
-#: functions.php:173
-msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
-msgid "no-subset"
-msgstr "không có tập con"
-
-#: functions.php:135
-msgid "Add widgets here to appear in your sidebar."
-msgstr "Thêm các widget tại đây để chúng hiển thị trên sidebar"
+#. translators: %s: Name of current post
+#: content-link.php:31 content.php:33 inc/template-tags.php:238
+msgid "Continue reading %s"
+msgstr "Đọc tiếp %s"
 
 #: content-none.php:26
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
@@ -132,81 +63,33 @@ msgstr "Rất tiếc, không có nội dung nào khớp với yêu cầu tìm ki
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Dường như nội dung bạn đang tìm kiếm không có. Hãy thử dùng chức năng tìm kiếm."
 
-#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.0)  #-#-#-#-#
+#. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 1.3)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:25
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 
-#. translators: %s: Name of current post
-#: content-link.php:31 content.php:33 inc/template-tags.php:237
-msgid "Continue reading %s"
-msgstr "Đọc tiếp %s"
+#: functions.php:86
+msgid "Social Links Menu"
+msgstr "Menu các đường dẫn mạng xã hội"
 
-#: comments.php:28
-msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "(Một) %1$s bình luận về &ldquo;%2$s&rdquo;"
+#: functions.php:133
+msgid "Widget Area"
+msgstr "Khu vực Widget"
 
-#: search.php:18
-msgid "Search Results for: %s"
-msgstr "Kết quả tìm kiếm với từ khóa: %s"
+#: functions.php:135
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Thêm các widget tại đây để chúng hiển thị trên sidebar"
 
-#: inc/template-tags.php:122
-msgid "% Comments"
-msgstr "% bình luận"
+#: functions.php:256
+msgid "collapse child menu"
+msgstr "đóng menu con"
 
-#: inc/template-tags.php:122
-msgid "1 Comment"
-msgstr "1 bình luận"
+#: functions.php:255
+msgid "expand child menu"
+msgstr "mở rộng menu con"
 
-#: inc/template-tags.php:23
-msgid "Comment navigation"
-msgstr "Điều hướng bình luận"
-
-#: inc/template-tags.php:122
-msgid "Leave a comment"
-msgstr "Viết bình luận"
-
-#: image.php:24
-msgid "Next Image"
-msgstr "Ảnh sau"
-
-#: image.php:24
-msgid "Previous Image"
-msgstr "Ảnh trước"
-
-#. Author of the plugin/theme
-msgid "the WordPress team"
-msgstr "Nhóm phát triển WordPress"
-
-#: inc/template-tags.php:91 inc/template-tags.php:99
-msgctxt "Used between list items, there is a space after the comma."
-msgid ", "
-msgstr ","
-
-#: single.php:34
-msgid "Next post:"
-msgstr "Bài tiếp theo:"
-
-#: single.php:37
-msgid "Previous post:"
-msgstr "Bài viết trước:"
-
-#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
-msgid "Applied to the header on small screens and the sidebar on wide screens."
-msgstr "Được áp dụng cho thanh tiêu đề trên màn hình nhỏ và thanh sidebar trên màn hình rộng."
-
-#: single.php:33
-msgid "Next"
-msgstr "Trang sau"
-
-#: single.php:36
-msgid "Previous"
-msgstr "Trang trước"
-
-#: header.php:44
+#: header.php:43
 msgid "Menu and widgets"
 msgstr "Menu và các widget"
 
@@ -259,10 +142,6 @@ msgstr "Mặc định"
 msgid "Header and Sidebar Background Color"
 msgstr "Màu của Tiêu đề và nền của Sidebar"
 
-#. Theme URI of the plugin/theme
-msgid "https://wordpress.org/themes/twentyfifteen"
-msgstr "https://wordpress.org/themes/twentyfifteen"
-
 #. Theme Name of the plugin/theme
 msgid "Twenty Fifteen"
 msgstr "Twenty Fifteen"
@@ -308,3 +187,117 @@ msgstr "Các bình luận mới hơn"
 #. Description of the plugin/theme
 msgid "Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer."
 msgstr "Giao diện mặc định 2015 của chúng tôi gọn gàng, hướng về nội dung, và được thiết kế tập trung vào sự rõ ràng. Twenty Fifteen có phông chữ đơn giản có thể đọc được trên các loại kích thước màn hình khác nhau, thích hợp với nhiều loại ngôn ngữ khác nhau. Chúng tôi thiết kế giao diện này sử dụng cách tiếp cận ưu tiên cho điện thoại, có nghĩa là nội dung trang của bạn được đặt ở trung tâm, cho dù những người vào thăm trang web của bạn truy cập qua smartphone, tablet, laptop hay desktop."
+
+#: single.php:33
+msgid "Next"
+msgstr "Trang sau"
+
+#: inc/customizer.php:47 inc/customizer.php:63 inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr "Được áp dụng cho thanh tiêu đề trên màn hình nhỏ và thanh sidebar trên màn hình rộng."
+
+#. Author of the plugin/theme
+msgid "the WordPress team"
+msgstr "Nhóm phát triển WordPress"
+
+#: single.php:34
+msgid "Next post:"
+msgstr "Bài tiếp theo:"
+
+#: single.php:37
+msgid "Previous post:"
+msgstr "Bài viết trước:"
+
+#: single.php:36
+msgid "Previous"
+msgstr "Trang trước"
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Không thể tìm thấy dữ liệu cần thiết tại đây. Hãy thử tìm kiếm?"
+
+#: inc/template-tags.php:91 inc/template-tags.php:99
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ","
+
+#: image.php:24
+msgid "Previous Image"
+msgstr "Ảnh trước"
+
+#: image.php:24
+msgid "Next Image"
+msgstr "Ảnh sau"
+
+#: inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr "Điều hướng bình luận"
+
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "Bình luận đã được đóng."
+
+#: content-link.php:36 content-page.php:25 content.php:38 image.php:59
+msgid "Pages:"
+msgstr "Trang:"
+
+#: content-link.php:56 content-page.php:35 content-search.php:28
+#: content-search.php:33 content.php:57 image.php:71
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: footer.php:25
+msgid "Proudly powered by %s"
+msgstr "Được xây dựng bởi %s"
+
+#: functions.php:85
+msgid "Primary Menu"
+msgstr "Trình đơn chính"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Vào ngay phần nội dung"
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "Không tìm thấy"
+
+#: content-none.php:22
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Bạn đã sẵn sàng đăng bài viết đầu tiên chưa? <a href=\"%1$s\">Hãy bắt đầu tại đây</a>."
+
+#: search.php:18
+msgid "Search Results for: %s"
+msgstr "Kết quả tìm kiếm với từ khóa: %s"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Sans, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:161
+msgctxt "Noto Sans font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Noto Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:169
+msgctxt "Noto Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:177
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "off"
+
+#. Translators: To add an additional character subset specific to your
+#. language, translate this to 'greek', 'cyrillic', 'devanagari' or
+#. 'vietnamese'. Do not translate into your own language.
+#: functions.php:185
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "vietnamese"

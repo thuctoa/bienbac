@@ -26,11 +26,17 @@ if ( !defined('ABSPATH') )
 	<p><label for="<?php echo $this->get_field_id('alt'); ?>"><?php _e('Alternate Text', 'image_widget'); ?>:</label>
 		<input class="widefat" id="<?php echo $this->get_field_id('alt'); ?>" name="<?php echo $this->get_field_name('alt'); ?>" type="text" value="<?php echo esc_attr(strip_tags($instance['alt'])); ?>" /></p>
 
+	<p><label for="<?php echo $this->get_field_id('rel'); ?>"><?php _e('Related', 'image_widget'); ?>:</label>
+		<input class="widefat" id="<?php echo $this->get_field_id('rel'); ?>" name="<?php echo $this->get_field_name('rel'); ?>" type="text" value="<?php echo esc_attr(strip_tags($instance['rel'])); ?>" /><br>
+		<span class="description"><?php _e('A recommended HTML5 related terms list is availlable <a href="http://microformats.org/wiki/existing-rel-values#HTML5_link_type_extensions" target="_blank">here</a>.', 'image_widget'); ?></span></p>
+
 	<p><label for="<?php echo $this->get_field_id('description'); ?>"><?php _e('Caption', 'image_widget'); ?>:</label>
 	<textarea rows="8" class="widefat" id="<?php echo $this->get_field_id('description'); ?>" name="<?php echo $this->get_field_name('description'); ?>"><?php echo format_to_edit($instance['description']); ?></textarea></p>
 
 	<p><label for="<?php echo $this->get_field_id('link'); ?>"><?php _e('Link', 'image_widget'); ?>:</label>
 	<input class="widefat" id="<?php echo $this->get_field_id('link'); ?>" name="<?php echo $this->get_field_name('link'); ?>" type="text" value="<?php echo esc_attr(strip_tags($instance['link'])); ?>" /><br />
+	<label for="<?php echo $this->get_field_id('linkid'); ?>"><?php _e('Link ID', 'image_widget'); ?>:</label>
+	<input class="widefat" id="<?php echo $this->get_field_id('linkid'); ?>" name="<?php echo $this->get_field_name('linkid'); ?>" type="text" value="<?php echo esc_attr(strip_tags($instance['linkid'])); ?>" /><br />
 	<select name="<?php echo $this->get_field_name('linktarget'); ?>" id="<?php echo $this->get_field_id('linktarget'); ?>">
 		<option value="_self"<?php selected( $instance['linktarget'], '_self' ); ?>><?php _e('Stay in Window', 'image_widget'); ?></option>
 		<option value="_blank"<?php selected( $instance['linktarget'], '_blank' ); ?>><?php _e('Open New Window', 'image_widget'); ?></option>

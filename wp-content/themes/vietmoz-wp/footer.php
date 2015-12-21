@@ -210,10 +210,8 @@ if( ! is_front_page() || is_page_template('home-ban-hang.php') ) :
 						<div class="ft-widget">
 							<h3 class="widget-title">Site Links</h3>
 							<ul>
-								<li><a href="#">VietMoz.com</a></li>
-								<li><a href="#">VietMoz.net</a></li>
-								<li><a href="#">VietMoz.edu.vn</a></li>
-								<li><a href="#">Thietkeweb.VietMoz.com</a></li>
+								<li><a href="http://dienlanhbienbac.com">dienlanhbienbac.com</a></li>
+								<li><a href="#">bienbacgroup.com</a></li>
 							</ul>
 						</div>
 						<?php }
@@ -230,10 +228,10 @@ if( ! is_front_page() || is_page_template('home-ban-hang.php') ) :
 						<div class="ft-widget">
 							<h3 class="widget-title">Contact</h3>
 							<ul>
-								<li><i class="fa fa-home"></i> <span>Hoa Cuong Building, Thai Ha St. 18/11, Dong Da, Ha Noi, VN</span></li>
-								<li><i class="fa fa-phone"></i> (+84) 04 6292 3344</li>
-								<li><i class="fa fa-envelope"></i> web@vietmoz.com</li>
-								<li><i class="fa fa-globe"></i> Thietkeweb.VietMoz.com</li>
+								<li><i class="fa fa-home"></i> <span> No.735 Phuc Dien St., Nam Tu Liem, Ha Noi, VN</span></li>
+								<li><i class="fa fa-phone"></i> (+84) 046 2543 777</li>
+								<li><i class="fa fa-envelope"></i> dienlanhbienbac@gmail.com</li>
+								<li><i class="fa fa-globe"></i> BienBacGroup.com</li>
 							</ul>
 						</div>
 						<?php }
